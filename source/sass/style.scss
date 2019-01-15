@@ -1,0 +1,24 @@
+/*SASS*/
+@import "normolize.scss";
+
+/*General*/
+@import "general.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+/*Blocks*/
+@import "../sass/blocks/visually-hidden.scss";
+@import "../sass/blocks/header.scss";
+@import "../sass/blocks/logo.scss";
+@import "../sass/blocks/product-navigation.scss";
+@import "../sass/blocks/maintainer-info.scss";
+@import "../sass/blocks/navigation.scss";
+@import "../sass/blocks/tariff.scss";
+@import "../sass/blocks/page.scss";
+@import "../sass/blocks/product.scss";
+@import "../sass/blocks/news.scss";
+@import "../sass/blocks/map.scss";
+@import "../sass/blocks/pages.scss";
+@import "../sass/blocks/pages-nav.scss";
+@import "../sass/blocks/site-map.scss";
+@import "../sass/blocks/footer.scss";

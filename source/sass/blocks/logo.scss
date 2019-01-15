@@ -1,0 +1,38 @@
+.logo {
+  display: flex;
+  width: 50px;
+  max-width: 50px;
+  max-height: 182.85px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 27px;
+  margin-left: 25px;
+  margin-right: $vertival-margin;
+  margin-bottom: 145px;
+}
+
+.logo__text {
+  transform: rotate(-90deg);
+  width: 150px;
+  margin: 0;
+  margin-top: -8px;
+  margin-left: -5px;
+}
+
+.logo___big-text {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 25px;
+  letter-spacing: -1px;
+}
+
+.logo__small-text {
+  font-size: 9px;
+  line-height: 9px;
+  letter-spacing: 1.2px;
+}
+
+.logo__img {
+  margin-left: 3px;
+  margin-top: 0;
+}

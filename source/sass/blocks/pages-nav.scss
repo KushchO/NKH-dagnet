@@ -1,0 +1,37 @@
+.pages-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 821px;
+  justify-content: flex-start;
+  list-style: none;
+  @include margin-pading-reset;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.pages-nav__item {
+  margin-right: 72px;
+  display: flex;
+}
+
+.pages-nav__item:last-child {
+  margin-right: 22px;
+}
+
+.pages-nav__icon {
+  margin-right: 10px;
+}
+
+.pages-nav__title {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  align-self: center;
+}

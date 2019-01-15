@@ -1,0 +1,80 @@
+.tariff {
+  color: #ffffff;
+}
+
+.tariff__activate {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: rgba(28, 83, 148, 0.47);
+    width: 32.9px;
+    height: 32.9px;
+    border-radius: 50%;
+    left: 137px;
+    top: -8px;
+  }
+}
+
+.tariff__type {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+  margin: 0;
+  margin-bottom: 5px;
+
+}
+
+.tariff__name-and-price {
+  font-family: Roboto;
+  font-size: 65px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.05;
+
+  margin: 0;
+  margin-left: -3px;
+  margin-bottom: 17px;
+}
+
+.tariff__details {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+
+  padding-right: 100px;
+  margin-bottom: 35px;
+}
+
+.tariff__arrow {
+  transform: rotate(180deg);
+  position: relative;
+  margin-left: 15px;
+
+}
+
+

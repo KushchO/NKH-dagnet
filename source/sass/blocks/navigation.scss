@@ -1,0 +1,37 @@
+.navigation {
+  min-width: 498px;
+  width: 498px;
+  background-image: linear-gradient(to top, rgba(149, 185, 203, 0), #8cb6cc);
+  padding-top: 37px;
+  padding-left: 31px;
+  padding-right: 33px;
+  box-sizing: border-box;
+
+  background-image: url("../../img/cape-town-1527769_1280.jpg");
+  background-position:  50% 50%;
+  background-repeat: no-repeat;
+  background-size: auto 1000px;
+  position: relative;
+}
+
+.navigation__list {
+  list-style: none;
+  @include margin-pading-reset;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: flex-start;
+
+  margin-bottom: 52px;
+}
+
+.navigation__item:not(:first-child) {
+  margin-top: 2px;
+  margin-left: 16px;
+  margin-right: 12px;
+  font-size: 17px;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}

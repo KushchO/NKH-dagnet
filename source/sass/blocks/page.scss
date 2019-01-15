@@ -1,0 +1,38 @@
+.page {
+  flex-grow: 1;
+  position: relative;
+  min-height: 840px;
+  overflow: hidden;
+}
+
+.page__block-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 836px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.block {
+  position: relative;
+  left: 2000px;
+}
+
+.page__block-1 {
+  @include block;
+  background-color: yellow;
+}
+.page__block-2 {
+  @include block;
+  background-color: yellowgreen;
+}
+.page__block-3 {
+  @include block;
+  background-color: peachpuff;
+}
+.page__block-4 {
+  @include block;
+  background-color: peru;
+}

@@ -1,0 +1,54 @@
+.site-map {
+  width: 0px;
+  background-color: #8e8e8e;
+  box-shadow: 1px 0 15px 0 rgba(0, 0, 0, 0.5);
+  color: #ffff;
+  height: 1000px;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.site-map_list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  opacity: 0;
+}
+
+.site-map__list {
+  list-style: none;
+  @include margin-pading-reset;
+  height: auto;
+  min-width: 200px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.site-map__item {
+  margin-bottom: 10px;
+}
+
+.site-map__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-map__back {
+  @include btn;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.site-map__all {
+  opacity: 0;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+.site-map__back-arrow {
+  opacity: 0;
+}

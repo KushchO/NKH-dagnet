@@ -1,0 +1,25 @@
+.pages {
+  max-width: 960px;
+  box-sizing: border-box;
+  padding-top: 17.6px;
+  padding-left: 17px;
+  padding-right: 23.4px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.pages__next-page {
+  @include btn;
+  position: absolute;
+  right: 24px;
+  top: 405px;
+  background-color: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.pages__next-page-arrow {
+  margin-top: 3px;
+  transform: rotate(180deg);
+}
