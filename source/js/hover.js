@@ -33,7 +33,7 @@
     move('.site-map')
     .set('width', '550px')
     .set('padding', '40px 30px')
-    .set('z-index', '5')
+    .set('z-index', '20')
     .end(function(){
       move('.site-map_list-container')
       .set('opacity', '1')
