@@ -10,9 +10,14 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   min-width: 836px;
+  max-width: 836px;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.page__block1 {
+  z-index: 15;
 }
 
 .block {
@@ -27,12 +32,16 @@
 .page__block-2 {
   @include block;
   background-color: yellowgreen;
+  margin-left: 16px;
 }
 .page__block-3 {
   @include block;
   background-color: peachpuff;
+  margin-top: 16px;
 }
 .page__block-4 {
   @include block;
   background-color: peru;
+  margin-left: 16px;
+  margin-top: 16px;
 }

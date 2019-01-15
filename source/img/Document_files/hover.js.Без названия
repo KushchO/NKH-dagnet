@@ -93,7 +93,6 @@
   };
 
   var productImageMouseOnHandler = function () {
-    console.log(1);
     move('.product__img')
     .set('height', '210px')
     .set('background-size', '430px 250px')
